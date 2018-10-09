@@ -4,7 +4,7 @@ const Sequelize = require('sequelize');
 const basename = path.basename(module.filename);
 
 // create connection pool
-const sequelize = new Sequelize('mathiasarens', '', '', {
+const sequelize = new Sequelize('tododb', 'todouser', 'qwerty', {
     host: 'localhost',
     dialect: 'postgres',
     operatorsAliases: false,
