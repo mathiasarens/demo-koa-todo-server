@@ -31,6 +31,6 @@
     "start": "node start.js",
     "test": "./node_modules/mocha/bin/_mocha ./test/**/*.test.js"
   },
-  "author": "",
+  "author": "Mathias Arens",
   "license": "ISC"
 }
